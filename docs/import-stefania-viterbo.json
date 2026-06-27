@@ -1,1 +1,1635 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"7522ec693488743ef9ba04185faf4b07cd11f62e"}}
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "fileName": "Stefania Viterbo 1 mese 1 definizione.pdf",
+    "extractedAt": "2026-06-18",
+    "notes": "JSON standardizzato per import nella PWA Meals. Estratto da PDF immagine tramite lettura visiva del piano."
+  },
+  "person": {
+    "displayName": "Stefania Viterbo",
+    "firstName": "Stefania",
+    "lastName": "Viterbo"
+  },
+  "plan": {
+    "name": "Mese 1 definizione",
+    "phases": [
+      {
+        "id": "phaseA",
+        "label": "Settimane 1-2",
+        "caloriesPerDay": "1650 cal",
+        "days": {
+          "monday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "40g biscotti magri",
+                  "35g frutta secca",
+                  "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "40g fette biscottate integrali",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "40g cornflakes",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "60g pasta integrale",
+                  "100g mozzarella light",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "90g pane integrale",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "250g patate",
+                      "100g ricotta light",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g fiocchi di mais",
+                  "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "60g riso/farro/orzo",
+                  "100g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "60g pasta integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "90g pane integrale",
+                      "100g manzo/cavallo",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "tuesday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "40g fette biscottate integrali",
+                  "35g frutta secca",
+                  "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "150g fette biscottate integrali",
+                      "35g frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "150g cornflakes",
+                      "35g frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "90g pane integrale",
+                  "#2 uova",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "60g pasta integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "90g pane integrale",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "barretta proteica"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "30g pane integrale",
+                      "50g fesa di tacchino"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "250g patate",
+                  "100g pesce magro",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "60g pasta integrale",
+                      "100g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "90g pane integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "wednesday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "40g cornflakes",
+                  "35g frutta secca",
+                  "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "40g fette biscottate integrali",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "40g cornflakes",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "60g pasta integrale",
+                  "200g fiocchi di latte zero grassi",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "90g pane integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "250g patate",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g gallette mais/riso",
+                  "30g whey protein isolate"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g fiocchi di mais",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "90g pane integrale",
+                  "100g manzo/cavallo",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "60g pasta integrale",
+                      "100g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "90g pane integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "thursday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "40g fette biscottate integrali",
+                  "35g frutta secca",
+                  "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "150g fette biscottate integrali",
+                      "35g frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "150g cornflakes",
+                      "35g frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "140g gnocchi di patate",
+                  "#2 uova",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "60g pasta integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "90g pane integrale",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g fiocchi di mais",
+                  "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "90g pane integrale",
+                  "100g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "60g pasta integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "90g pane integrale",
+                      "100g manzo/cavallo",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "friday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "40g biscotti magri",
+                  "35g frutta secca",
+                  "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "40g fette biscottate integrali",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "40g cornflakes",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "60g pasta integrale",
+                  "100g ricotta light",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "90g pane integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "250g patate",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "30g pane integrale",
+                  "50g fesa di tacchino"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "150ml kefir/yogurt da bere"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "150g legumi cotti",
+                  "100g pesce magro",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "60g pasta integrale",
+                      "100g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "90g pane integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "saturday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "40g fette biscottate integrali",
+                  "35g frutta secca",
+                  "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "150g fette biscottate integrali",
+                      "35g frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "150g cornflakes",
+                      "35g frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "60g riso/farro/orzo",
+                  "100g tonno al naturale",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "60g pasta integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "90g pane integrale",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g fiocchi di mais",
+                  "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "pasto libero"
+                ],
+                "alternatives": []
+              }
+            ]
+          },
+          "sunday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "40g cornflakes",
+                  "35g frutta secca",
+                  "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "40g fette biscottate integrali",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "40g cornflakes",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "60g pasta integrale",
+                  "100g pesce grasso",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "90g pane integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "250g patate",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g gallette mais/riso",
+                  "150ml kefir/yogurt da bere"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "250g patate",
+                  "100g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "60g pasta integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "90g pane integrale",
+                      "100g manzo/cavallo",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "phaseB",
+        "label": "Settimane 3-4",
+        "caloriesPerDay": "1300 cal",
+        "days": {
+          "monday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "20g biscotti magri",
+                  "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "20g fette biscottate integrali",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "20g cornflakes",
+                      "#1 frutto"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "50g pasta integrale",
+                  "100g mozzarella light",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "75g pane integrale",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "200g patate",
+                      "100g ricotta light",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g fiocchi di mais",
+                  "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "50g riso/farro/orzo",
+                  "100g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "50g pasta integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "75g pane integrale",
+                      "100g manzo/cavallo",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "tuesday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "20g fette biscottate integrali",
+                  "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "150g fette biscottate integrali",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "150g cornflakes",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "75g pane integrale",
+                  "#2 uova",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g pasta integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "75g pane integrale",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "barretta proteica"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "30g pane integrale",
+                      "50g fesa di tacchino"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "200g patate",
+                  "100g pesce magro",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "50g pasta integrale",
+                      "100g petto di pollo/tacchino",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "75g pane integrale",
+                      "100g pesce magro",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "wednesday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "20g cornflakes",
+                  "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "20g fette biscottate integrali",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "20g cornflakes",
+                      "#1 frutto"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "50g pasta integrale",
+                  "200g fiocchi di latte zero grassi",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "75g pane integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "200g patate",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g gallette mais/riso",
+                  "30g whey protein isolate"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g fiocchi di mais",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "50g riso/farro/orzo",
+                  "100g manzo/cavallo",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "50g pasta integrale",
+                      "100g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "75g pane integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "thursday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "20g fette biscottate integrali",
+                  "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "150g fette biscottate integrali",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "150g cornflakes",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "110g gnocchi di patate",
+                  "#2 uova",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g pasta integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "75g pane integrale",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g fiocchi di mais",
+                  "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "70g pane integrale",
+                  "100g petto di pollo/tacchino",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "50g pasta integrale",
+                      "100g pesce magro",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "75g pane integrale",
+                      "100g manzo/cavallo",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "friday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "20g biscotti magri",
+                  "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "20g fette biscottate integrali",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "20g cornflakes",
+                      "#1 frutto"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "50g pasta integrale",
+                  "100g ricotta light",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "75g pane integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "200g patate",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "30g pane integrale",
+                  "50g fesa di tacchino"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "150ml kefir/yogurt da bere"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "120g legumi cotti",
+                  "100g pesce magro",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "50g pasta integrale",
+                      "100g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "75g pane integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "saturday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "20g fette biscottate integrali",
+                  "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "150g fette biscottate integrali",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "150g cornflakes",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "75g pane integrale",
+                  "100g prosciutto cotto",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g pasta integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "75g pane integrale",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g fiocchi di mais",
+                  "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "pasto libero"
+                ],
+                "alternatives": []
+              }
+            ]
+          },
+          "sunday": {
+            "supplements": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "40g cornflakes",
+                  "35g frutta secca",
+                  "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "40g fette biscottate integrali",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "40g cornflakes",
+                      "35g frutta secca",
+                      "#1 frutto"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "items": [
+                  "50g pasta integrale",
+                  "100g pesce grasso",
+                  "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "75g pane integrale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "200g patate",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "items": [
+                  "20g gallette mais/riso",
+                  "150ml kefir/yogurt da bere"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "20g gallette mais/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "barretta proteica"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "items": [
+                  "250g patate",
+                  "100g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "50g pasta integrale",
+                      "100g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "75g pane integrale",
+                      "100g manzo/cavallo",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "foods": [],
+  "combinations": [],
+  "substitutions": {
+    "carbohydrates": [
+      {
+        "source": "50g pasta/riso/farro/orzo/avena",
+        "targets": [
+          "75g pane/pasta fresca/piadina",
+          "110g gnocchi di patate",
+          "200g patate/patate dolci",
+          "120g legumi/mais in scatola"
+        ]
+      },
+      {
+        "source": "60g pasta/riso/farro/orzo/avena",
+        "targets": [
+          "90g pane/pasta fresca/piadina",
+          "140g gnocchi di patate",
+          "250g patate/patate dolci",
+          "150g legumi/mais in scatola"
+        ]
+      },
+      {
+        "source": "75g pane integrale",
+        "targets": [
+          "50g pasta integrale",
+          "50g riso/farro/orzo",
+          "110g gnocchi di patate",
+          "200g patate"
+        ]
+      },
+      {
+        "source": "90g pane integrale",
+        "targets": [
+          "60g pasta integrale",
+          "60g riso/farro/orzo",
+          "140g gnocchi di patate",
+          "250g patate"
+        ]
+      }
+    ],
+    "proteins": [
+      {
+        "group": "pranzo",
+        "items": [
+          "100g mozzarella light",
+          "#2 uova",
+          "200g fiocchi di latte zero grassi",
+          "100g ricotta light",
+          "100g tonno al naturale",
+          "100g pesce grasso",
+          "100g prosciutto cotto"
+        ]
+      },
+      {
+        "group": "cena",
+        "items": [
+          "100g petto di pollo/tacchino",
+          "100g pesce magro",
+          "100g manzo/cavallo"
+        ]
+      }
+    ],
+    "snacks": [
+      {
+        "items": [
+          "150g yogurt greco zero grassi",
+          "30g whey protein isolate",
+          "50g fesa di tacchino",
+          "150ml kefir/yogurt da bere",
+          "barretta proteica"
+        ]
+      }
+    ]
+  }
+}

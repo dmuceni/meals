@@ -1,1 +1,19 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"65347a7f4a18055b07922932c5699ad890d9de2e"}}
+import { getSql, ensureProfile } from "./_db.js";
+import { handleError, json, requireUser } from "./_auth.js";
+
+export default async function handler(req, res) {
+  try {
+    const user = await requireUser(req);
+    const sql = getSql();
+    const profile = await ensureProfile(sql, user);
+    const diets = await sql`
+      select id, name, is_active, created_at
+      from diets
+      where profile_id = ${profile.id}
+      order by is_active desc, created_at desc
+    `;
+    json(res, 200, { profile, diets });
+  } catch (error) {
+    handleError(res, error);
+  }
+}

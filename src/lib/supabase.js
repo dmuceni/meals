@@ -1,1 +1,16 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"8b8b100668782d292ff88e2a89532924113c1ef0"}}
+import { createClient } from "@supabase/supabase-js";
+
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+
+export const supabase =
+  supabaseUrl && supabaseAnonKey
+    ? createClient(supabaseUrl, supabaseAnonKey)
+    : null;
+
+export function requireSupabase() {
+  if (!supabase) {
+    throw new Error("Configura VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY.");
+  }
+  return supabase;
+}

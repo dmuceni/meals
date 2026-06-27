@@ -1,2 +1,52 @@
-.vercel
-.env*
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+!docs/env.example
+
+# Build and generated output
+dist/
+build/
+coverage/
+.vite/
+
+# Hosting/local platform state
+.vercel/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local tool/cache output
+.cache/
+.tmp/
+tmp/
+output/imagegen/
+generated_images/
+.codex/
+.agents/
+
+# Local database dumps
+*.db
+*.sqlite
+*.sqlite3
+*.dump

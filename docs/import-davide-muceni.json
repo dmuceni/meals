@@ -1,1 +1,1293 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"c7d71ae412137d33b74d602635456bc63659624a"}}
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "fileName": "CONSIGLI ALIMENTARI FREE 7 DAVIDE MUCENI.pdf",
+    "extractedAt": "2026-06-22",
+    "notes": "JSON standardizzato per import nella PWA Meals. Aggiornato dal PDF Consigli alimentari 7 del 1 giugno 2026; schema giornaliero ripetuto su tutti i giorni della settimana."
+  },
+  "person": {
+    "displayName": "Davide Muceni",
+    "firstName": "Davide",
+    "lastName": "Muceni"
+  },
+  "plan": {
+    "name": "Consigli alimentari 7",
+    "phases": [
+      {
+        "id": "daily-template",
+        "label": "Schema giornaliero",
+        "caloriesPerDay": null,
+        "macros": {},
+        "days": {
+          "monday": {
+            "notes": [
+              "Tra un pasto e l'altro fai in modo che passino almeno 3 ore.",
+              "3,5 litri d'acqua.",
+              "3g totali di sale nei pasti principali."
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Colazione",
+                "supplements": [
+                  "1g vit C 1000",
+                  "2mg vit D",
+                  "1 Omega 3",
+                  "2 caps vit K2",
+                  "1 multivit",
+                  "1 caps ashwagandha",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "250g albume",
+                  "50g cereali/gallette riso/mais"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200g yogurt greco",
+                      "15g proteine idro",
+                      "50g cereali/gallette riso/mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "250ml latte vegetale",
+                      "30g proteine",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "30g proteine idrolizzate",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Spuntino",
+                "note": "Se preferisci spostalo al pomeriggio.",
+                "items": [
+                  "30g gallette mais/riso basmati/cous cous",
+                  "120g yogurt greco/kefir"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#1 banana",
+                      "150g albume"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#2 mele",
+                      "20g proteine idrolizzate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "30g gallette mais/riso basmati/cous cous",
+                      "60g ricotta"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pranzo",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "50g riso/cous cous",
+                  "150g tacchino/pollo",
+                  "10g olio",
+                  "150g verdure cotte max"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "70g pane tostato",
+                      "120g tonno al naturale",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g riso/cous cous",
+                      "130g manzo/salmone",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ],
+                    "note": "Max 2 volte alla settimana; il PDF indica: utilizza g in meno olio."
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Cena",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3"
+                ],
+                "items": [
+                  "200g tacchino/pollo",
+                  "5g olio",
+                  "60g avocado"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "160g tonno al naturale",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "150g manzo/salmone",
+                      "5g olio",
+                      "60g avocado"
+                    ],
+                    "note": "Max 2 volte alla settimana."
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g nasello/merluzzo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g albume",
+                      "#1 uovo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pre nanna",
+                "supplements": [
+                  "1 caps magnesio bisglicinato",
+                  "1 ashwagandha"
+                ],
+                "items": [
+                  "150g yogurt greco",
+                  "10g frutta secca/burro d'arachidi"
+                ],
+                "alternatives": []
+              }
+            ]
+          },
+          "tuesday": {
+            "notes": [
+              "Tra un pasto e l'altro fai in modo che passino almeno 3 ore.",
+              "3,5 litri d'acqua.",
+              "3g totali di sale nei pasti principali."
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Colazione",
+                "supplements": [
+                  "1g vit C 1000",
+                  "2mg vit D",
+                  "1 Omega 3",
+                  "2 caps vit K2",
+                  "1 multivit",
+                  "1 caps ashwagandha",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "250g albume",
+                  "50g cereali/gallette riso/mais"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200g yogurt greco",
+                      "15g proteine idro",
+                      "50g cereali/gallette riso/mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "250ml latte vegetale",
+                      "30g proteine",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "30g proteine idrolizzate",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Spuntino",
+                "note": "Se preferisci spostalo al pomeriggio.",
+                "items": [
+                  "30g gallette mais/riso basmati/cous cous",
+                  "120g yogurt greco/kefir"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#1 banana",
+                      "150g albume"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#2 mele",
+                      "20g proteine idrolizzate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "30g gallette mais/riso basmati/cous cous",
+                      "60g ricotta"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pranzo",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "50g riso/cous cous",
+                  "150g tacchino/pollo",
+                  "10g olio",
+                  "150g verdure cotte max"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "70g pane tostato",
+                      "120g tonno al naturale",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g riso/cous cous",
+                      "130g manzo/salmone",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ],
+                    "note": "Max 2 volte alla settimana; il PDF indica: utilizza g in meno olio."
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Cena",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3"
+                ],
+                "items": [
+                  "200g tacchino/pollo",
+                  "5g olio",
+                  "60g avocado"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "160g tonno al naturale",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "150g manzo/salmone",
+                      "5g olio",
+                      "60g avocado"
+                    ],
+                    "note": "Max 2 volte alla settimana."
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g nasello/merluzzo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g albume",
+                      "#1 uovo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pre nanna",
+                "supplements": [
+                  "1 caps magnesio bisglicinato",
+                  "1 ashwagandha"
+                ],
+                "items": [
+                  "150g yogurt greco",
+                  "10g frutta secca/burro d'arachidi"
+                ],
+                "alternatives": []
+              }
+            ]
+          },
+          "wednesday": {
+            "notes": [
+              "Tra un pasto e l'altro fai in modo che passino almeno 3 ore.",
+              "3,5 litri d'acqua.",
+              "3g totali di sale nei pasti principali."
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Colazione",
+                "supplements": [
+                  "1g vit C 1000",
+                  "2mg vit D",
+                  "1 Omega 3",
+                  "2 caps vit K2",
+                  "1 multivit",
+                  "1 caps ashwagandha",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "250g albume",
+                  "50g cereali/gallette riso/mais"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200g yogurt greco",
+                      "15g proteine idro",
+                      "50g cereali/gallette riso/mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "250ml latte vegetale",
+                      "30g proteine",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "30g proteine idrolizzate",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Spuntino",
+                "note": "Se preferisci spostalo al pomeriggio.",
+                "items": [
+                  "30g gallette mais/riso basmati/cous cous",
+                  "120g yogurt greco/kefir"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#1 banana",
+                      "150g albume"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#2 mele",
+                      "20g proteine idrolizzate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "30g gallette mais/riso basmati/cous cous",
+                      "60g ricotta"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pranzo",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "50g riso/cous cous",
+                  "150g tacchino/pollo",
+                  "10g olio",
+                  "150g verdure cotte max"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "70g pane tostato",
+                      "120g tonno al naturale",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g riso/cous cous",
+                      "130g manzo/salmone",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ],
+                    "note": "Max 2 volte alla settimana; il PDF indica: utilizza g in meno olio."
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Cena",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3"
+                ],
+                "items": [
+                  "200g tacchino/pollo",
+                  "5g olio",
+                  "60g avocado"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "160g tonno al naturale",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "150g manzo/salmone",
+                      "5g olio",
+                      "60g avocado"
+                    ],
+                    "note": "Max 2 volte alla settimana."
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g nasello/merluzzo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g albume",
+                      "#1 uovo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pre nanna",
+                "supplements": [
+                  "1 caps magnesio bisglicinato",
+                  "1 ashwagandha"
+                ],
+                "items": [
+                  "150g yogurt greco",
+                  "10g frutta secca/burro d'arachidi"
+                ],
+                "alternatives": []
+              }
+            ]
+          },
+          "thursday": {
+            "notes": [
+              "Tra un pasto e l'altro fai in modo che passino almeno 3 ore.",
+              "3,5 litri d'acqua.",
+              "3g totali di sale nei pasti principali."
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Colazione",
+                "supplements": [
+                  "1g vit C 1000",
+                  "2mg vit D",
+                  "1 Omega 3",
+                  "2 caps vit K2",
+                  "1 multivit",
+                  "1 caps ashwagandha",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "250g albume",
+                  "50g cereali/gallette riso/mais"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200g yogurt greco",
+                      "15g proteine idro",
+                      "50g cereali/gallette riso/mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "250ml latte vegetale",
+                      "30g proteine",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "30g proteine idrolizzate",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Spuntino",
+                "note": "Se preferisci spostalo al pomeriggio.",
+                "items": [
+                  "30g gallette mais/riso basmati/cous cous",
+                  "120g yogurt greco/kefir"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#1 banana",
+                      "150g albume"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#2 mele",
+                      "20g proteine idrolizzate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "30g gallette mais/riso basmati/cous cous",
+                      "60g ricotta"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pranzo",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "50g riso/cous cous",
+                  "150g tacchino/pollo",
+                  "10g olio",
+                  "150g verdure cotte max"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "70g pane tostato",
+                      "120g tonno al naturale",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g riso/cous cous",
+                      "130g manzo/salmone",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ],
+                    "note": "Max 2 volte alla settimana; il PDF indica: utilizza g in meno olio."
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Cena",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3"
+                ],
+                "items": [
+                  "200g tacchino/pollo",
+                  "5g olio",
+                  "60g avocado"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "160g tonno al naturale",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "150g manzo/salmone",
+                      "5g olio",
+                      "60g avocado"
+                    ],
+                    "note": "Max 2 volte alla settimana."
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g nasello/merluzzo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g albume",
+                      "#1 uovo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pre nanna",
+                "supplements": [
+                  "1 caps magnesio bisglicinato",
+                  "1 ashwagandha"
+                ],
+                "items": [
+                  "150g yogurt greco",
+                  "10g frutta secca/burro d'arachidi"
+                ],
+                "alternatives": []
+              }
+            ]
+          },
+          "friday": {
+            "notes": [
+              "Tra un pasto e l'altro fai in modo che passino almeno 3 ore.",
+              "3,5 litri d'acqua.",
+              "3g totali di sale nei pasti principali."
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Colazione",
+                "supplements": [
+                  "1g vit C 1000",
+                  "2mg vit D",
+                  "1 Omega 3",
+                  "2 caps vit K2",
+                  "1 multivit",
+                  "1 caps ashwagandha",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "250g albume",
+                  "50g cereali/gallette riso/mais"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200g yogurt greco",
+                      "15g proteine idro",
+                      "50g cereali/gallette riso/mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "250ml latte vegetale",
+                      "30g proteine",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "30g proteine idrolizzate",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Spuntino",
+                "note": "Se preferisci spostalo al pomeriggio.",
+                "items": [
+                  "30g gallette mais/riso basmati/cous cous",
+                  "120g yogurt greco/kefir"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#1 banana",
+                      "150g albume"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#2 mele",
+                      "20g proteine idrolizzate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "30g gallette mais/riso basmati/cous cous",
+                      "60g ricotta"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pranzo",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "50g riso/cous cous",
+                  "150g tacchino/pollo",
+                  "10g olio",
+                  "150g verdure cotte max"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "70g pane tostato",
+                      "120g tonno al naturale",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g riso/cous cous",
+                      "130g manzo/salmone",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ],
+                    "note": "Max 2 volte alla settimana; il PDF indica: utilizza g in meno olio."
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Cena",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3"
+                ],
+                "items": [
+                  "200g tacchino/pollo",
+                  "5g olio",
+                  "60g avocado"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "160g tonno al naturale",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "150g manzo/salmone",
+                      "5g olio",
+                      "60g avocado"
+                    ],
+                    "note": "Max 2 volte alla settimana."
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g nasello/merluzzo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g albume",
+                      "#1 uovo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pre nanna",
+                "supplements": [
+                  "1 caps magnesio bisglicinato",
+                  "1 ashwagandha"
+                ],
+                "items": [
+                  "150g yogurt greco",
+                  "10g frutta secca/burro d'arachidi"
+                ],
+                "alternatives": []
+              }
+            ]
+          },
+          "saturday": {
+            "notes": [
+              "Tra un pasto e l'altro fai in modo che passino almeno 3 ore.",
+              "3,5 litri d'acqua.",
+              "3g totali di sale nei pasti principali."
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Colazione",
+                "supplements": [
+                  "1g vit C 1000",
+                  "2mg vit D",
+                  "1 Omega 3",
+                  "2 caps vit K2",
+                  "1 multivit",
+                  "1 caps ashwagandha",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "250g albume",
+                  "50g cereali/gallette riso/mais"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200g yogurt greco",
+                      "15g proteine idro",
+                      "50g cereali/gallette riso/mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "250ml latte vegetale",
+                      "30g proteine",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "30g proteine idrolizzate",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Spuntino",
+                "note": "Se preferisci spostalo al pomeriggio.",
+                "items": [
+                  "30g gallette mais/riso basmati/cous cous",
+                  "120g yogurt greco/kefir"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#1 banana",
+                      "150g albume"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#2 mele",
+                      "20g proteine idrolizzate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "30g gallette mais/riso basmati/cous cous",
+                      "60g ricotta"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pranzo",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "50g riso/cous cous",
+                  "150g tacchino/pollo",
+                  "10g olio",
+                  "150g verdure cotte max"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "70g pane tostato",
+                      "120g tonno al naturale",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g riso/cous cous",
+                      "130g manzo/salmone",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ],
+                    "note": "Max 2 volte alla settimana; il PDF indica: utilizza g in meno olio."
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Cena",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3"
+                ],
+                "items": [
+                  "200g tacchino/pollo",
+                  "5g olio",
+                  "60g avocado"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "160g tonno al naturale",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "150g manzo/salmone",
+                      "5g olio",
+                      "60g avocado"
+                    ],
+                    "note": "Max 2 volte alla settimana."
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g nasello/merluzzo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g albume",
+                      "#1 uovo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pre nanna",
+                "supplements": [
+                  "1 caps magnesio bisglicinato",
+                  "1 ashwagandha"
+                ],
+                "items": [
+                  "150g yogurt greco",
+                  "10g frutta secca/burro d'arachidi"
+                ],
+                "alternatives": []
+              }
+            ]
+          },
+          "sunday": {
+            "notes": [
+              "Tra un pasto e l'altro fai in modo che passino almeno 3 ore.",
+              "3,5 litri d'acqua.",
+              "3g totali di sale nei pasti principali."
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Colazione",
+                "supplements": [
+                  "1g vit C 1000",
+                  "2mg vit D",
+                  "1 Omega 3",
+                  "2 caps vit K2",
+                  "1 multivit",
+                  "1 caps ashwagandha",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "250g albume",
+                  "50g cereali/gallette riso/mais"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "200g yogurt greco",
+                      "15g proteine idro",
+                      "50g cereali/gallette riso/mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "250ml latte vegetale",
+                      "30g proteine",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa colazione",
+                    "items": [
+                      "30g proteine idrolizzate",
+                      "70g farina d'avena/pane tostato"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Spuntino",
+                "note": "Se preferisci spostalo al pomeriggio.",
+                "items": [
+                  "30g gallette mais/riso basmati/cous cous",
+                  "120g yogurt greco/kefir"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#1 banana",
+                      "150g albume"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "#2 mele",
+                      "20g proteine idrolizzate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa spuntino",
+                    "items": [
+                      "30g gallette mais/riso basmati/cous cous",
+                      "60g ricotta"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pranzo",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3",
+                  "300mg ALA 30 minuti prima di mangiare"
+                ],
+                "items": [
+                  "50g riso/cous cous",
+                  "150g tacchino/pollo",
+                  "10g olio",
+                  "150g verdure cotte max"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "70g pane tostato",
+                      "120g tonno al naturale",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa pranzo",
+                    "items": [
+                      "50g riso/cous cous",
+                      "130g manzo/salmone",
+                      "10g olio",
+                      "150g verdure cotte max"
+                    ],
+                    "note": "Max 2 volte alla settimana; il PDF indica: utilizza g in meno olio."
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Cena",
+                "supplements": [
+                  "1mg vit D",
+                  "1 Omega 3"
+                ],
+                "items": [
+                  "200g tacchino/pollo",
+                  "5g olio",
+                  "60g avocado"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "160g tonno al naturale",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "150g manzo/salmone",
+                      "5g olio",
+                      "60g avocado"
+                    ],
+                    "note": "Max 2 volte alla settimana."
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g nasello/merluzzo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa cena",
+                    "items": [
+                      "250g albume",
+                      "#1 uovo",
+                      "5g olio",
+                      "60g avocado"
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pre nanna",
+                "supplements": [
+                  "1 caps magnesio bisglicinato",
+                  "1 ashwagandha"
+                ],
+                "items": [
+                  "150g yogurt greco",
+                  "10g frutta secca/burro d'arachidi"
+                ],
+                "alternatives": []
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,1 +1,18 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"b67aa442b49a0a21556f76df0cf734aca5ce1643"}}
+export async function apiFetch(path, session, options = {}) {
+  const headers = new Headers(options.headers || {});
+  headers.set("Content-Type", headers.get("Content-Type") || "application/json");
+  if (session?.access_token) {
+    headers.set("Authorization", `Bearer ${session.access_token}`);
+  }
+
+  const response = await fetch(path, {
+    ...options,
+    headers
+  });
+
+  const data = await response.json().catch(() => ({}));
+  if (!response.ok) {
+    throw new Error(data.error || "Richiesta non riuscita.");
+  }
+  return data;
+}

@@ -1,1 +1,52 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"eb13002799fbe4dbe2532a288ad14568f6fd9399"}}
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "fileName": "Sonia Mannarino 1 mese 1 definizione.pdf"
+  },
+  "person": {
+    "displayName": "Sonia Mannarino",
+    "firstName": "Sonia",
+    "lastName": "Mannarino"
+  },
+  "plan": {
+    "name": "Mese 1 definizione",
+    "phases": [
+      {
+        "id": "phaseA",
+        "label": "Settimane 1-2",
+        "caloriesPerDay": "1750 cal",
+        "days": {
+          "monday": {
+            "meals": [
+              {
+                "type": "breakfast",
+                "items": ["200ml latte vegetale/scremato", "30g biscotti magri", "20g frutta secca", "#1 frutto"]
+              },
+              {
+                "type": "lunch",
+                "items": ["80g pasta integrale", "100g mozzarella light", "15g olio EVO"]
+              },
+              {
+                "type": "snack",
+                "items": ["20g gallette mais/riso", "150g yogurt greco zero grassi"]
+              },
+              {
+                "type": "dinner",
+                "items": ["60g riso/farro/orzo", "200g petto di pollo/tacchino", "verdure", "20g olio EVO"]
+              }
+            ]
+          },
+          "tuesday": { "meals": [] },
+          "wednesday": { "meals": [] },
+          "thursday": { "meals": [] },
+          "friday": { "meals": [] },
+          "saturday": { "meals": [] },
+          "sunday": { "meals": [] }
+        }
+      }
+    ]
+  },
+  "foods": [],
+  "combinations": [],
+  "substitutions": {}
+}

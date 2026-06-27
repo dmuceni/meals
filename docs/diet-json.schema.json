@@ -1,1 +1,122 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"34a947dfa0ae1e1d428314ceb8a69d646b440c3f"}}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://meals.local/schemas/diet-v1.json",
+  "title": "Meals Diet JSON",
+  "type": "object",
+  "required": ["schemaVersion", "person", "plan"],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "fileName": { "type": "string" },
+        "extractedAt": { "type": "string" },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "person": {
+      "type": "object",
+      "required": ["displayName"],
+      "properties": {
+        "displayName": { "type": "string" },
+        "firstName": { "type": "string" },
+        "lastName": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "plan": {
+      "type": "object",
+      "required": ["name", "phases"],
+      "properties": {
+        "name": { "type": "string" },
+        "phases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "label", "days"],
+            "properties": {
+              "id": { "type": "string" },
+              "label": { "type": "string" },
+              "caloriesPerDay": { "type": "string" },
+              "days": {
+                "type": "object",
+                "patternProperties": {
+                  "^(monday|tuesday|wednesday|thursday|friday|saturday|sunday)$": {
+                    "type": "object",
+                    "required": ["meals"],
+                    "properties": {
+                      "meals": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "required": ["type", "items"],
+                          "properties": {
+                            "type": {
+                              "enum": ["breakfast", "lunch", "snack", "dinner"]
+                            },
+                            "items": {
+                              "type": "array",
+                              "items": {
+                                "oneOf": [
+                                  { "type": "string" },
+                                  {
+                                    "type": "object",
+                                    "required": ["name", "quantity", "unit", "rawText"],
+                                    "properties": {
+                                      "name": { "type": "string" },
+                                      "quantity": { "type": "number" },
+                                      "unit": { "type": "string" },
+                                      "rawText": { "type": "string" },
+                                      "category": { "type": "string" }
+                                    },
+                                    "additionalProperties": true
+                                  }
+                                ]
+                              }
+                            },
+                            "alternatives": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "required": ["items"],
+                                "properties": {
+                                  "label": { "type": "string" },
+                                  "items": { "type": "array" },
+                                  "note": { "type": "string" }
+                                },
+                                "additionalProperties": true
+                              }
+                            }
+                          },
+                          "additionalProperties": true
+                        }
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                }
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "foods": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "combinations": {
+      "type": "array",
+      "items": { "type": "object" }
+    },
+    "substitutions": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

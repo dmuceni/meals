@@ -1,1 +1,21 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"4a51116e3ff7688a718314997ff0ff2c5c81b927"}}
+{
+  "name": "Meals Multi Utente",
+  "short_name": "Meals",
+  "description": "Piano pasti multi utente con dieta JSON, lista spesa e sostituzioni.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff8ef",
+  "theme_color": "#f77f00",
+  "icons": [
+    {
+      "src": "/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,1 +1,6 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"e952729a26940aa381acc3456a536fca8f0f96e7"}}
+/.env*
+/assets/
+/app.js
+/styles.css
+/sw.js
+/manifest.webmanifest

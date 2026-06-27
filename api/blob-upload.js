@@ -1,1 +1,27 @@
-{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"b4241eebb6d827f3e3e23917b0c2e71e2e06b816"}}
+import { put } from "@vercel/blob";
+import { handleError, json, readJson, requireUser } from "./_auth.js";
+
+export default async function handler(req, res) {
+  try {
+    await requireUser(req);
+    if (req.method !== "POST") {
+      json(res, 405, { error: "Metodo non supportato." });
+      return;
+    }
+
+    const { fileName, contentType, base64 } = await readJson(req);
+    if (!fileName || !base64) {
+      json(res, 422, { error: "fileName e base64 obbligatori." });
+      return;
+    }
+
+    const buffer = Buffer.from(base64, "base64");
+    const blob = await put(`meal-assets/${Date.now()}-${fileName}`, buffer, {
+      access: "public",
+      contentType: contentType || "application/octet-stream"
+    });
+    json(res, 200, { blob });
+  } catch (error) {
+    handleError(res, error);
+  }
+}
