@@ -1,1 +1,1 @@
-# meals
+{"error":{"code":"api_version_disabled","message":"v6 of this endpoint has been disabled. Please use v8 instead.","fid":"e7958ae7a68fae40253698361a097c00edd12397"}}
