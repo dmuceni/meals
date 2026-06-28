@@ -290,6 +290,7 @@ function MealCard({ meal }) {
   const type = meal.type || "lunch";
   const currentSlide = slides[active] || slides[0];
   const nutrition = estimateMealNutrition(currentSlide.items);
+  const maxSlideItems = Math.max(...slides.map((slide) => slide.items.length), 0);
 
   function move(direction) {
     setActive((current) => (current + direction + slides.length) % slides.length);
@@ -362,6 +363,9 @@ function MealCard({ meal }) {
               <ul className="ingredient-list">
                 {currentSlide.items.map((item, index) => (
                   <IngredientRow key={index} item={item} mealType={type} />
+                ))}
+                {Array.from({ length: Math.max(maxSlideItems - currentSlide.items.length, 0) }).map((_, index) => (
+                  <li key={`placeholder-${index}`} className="ingredient-row ingredient-placeholder" aria-hidden="true" />
                 ))}
               </ul>
             </div>

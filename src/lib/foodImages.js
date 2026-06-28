@@ -1,7 +1,6 @@
 const FOOD_IMAGE_RULES = [
-  { exact: ["marmellata", "marmellata/miele"], src: "/foods/matteo/marmellata.png" },
+  { exact: ["marmellata", "marmellata/miele"], keys: ["marmellata"], src: "/foods/matteo/marmellata.png" },
   { exact: ["frutto", "#1 frutto"], src: "/foods/stefania/frutto-marmellata.jpg" },
-  { keys: ["frutto/marmellata"], src: "/foods/stefania/frutto-marmellata.jpg" },
   { keys: ["biscotti magri"], src: "/foods/stefania/biscotti-magri.jpg" },
   { keys: ["fette biscottate"], src: "/foods/stefania/fette-biscottate.jpg" },
   { keys: ["pasta integrale", "pasta (integrale)"], src: "/foods/stefania/pasta-integrale.jpg" },
