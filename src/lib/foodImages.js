@@ -2,8 +2,8 @@ const FOOD_IMAGE_RULES = [
   { keys: ["frutto/marmellata", "#1 frutto", "marmellata"], src: "/foods/stefania/frutto-marmellata.jpg" },
   { keys: ["biscotti magri"], src: "/foods/stefania/biscotti-magri.jpg" },
   { keys: ["fette biscottate"], src: "/foods/stefania/fette-biscottate.jpg" },
-  { keys: ["pasta integrale"], src: "/foods/stefania/pasta-integrale.jpg" },
-  { keys: ["pane integrale"], src: "/foods/stefania/pane-integrale.jpg" },
+  { keys: ["pasta integrale", "pasta (integrale)"], src: "/foods/stefania/pasta-integrale.jpg" },
+  { keys: ["pane integrale", "pane (integrale)"], src: "/foods/stefania/pane-integrale.jpg" },
   { keys: ["mozzarella"], src: "/foods/stefania/mozzarella-light.jpg" },
   { keys: ["ricotta", "fiocchi di latte"], src: "/foods/stefania/ricotta-fiocchi-latte.jpg" },
   { keys: ["gnocchi", "patate"], src: "/foods/stefania/patate-gnocchi.jpg" },
@@ -37,7 +37,10 @@ const FOOD_IMAGE_RULES = [
   { keys: ["verdure", "verdura"], src: "/foods/davide/verdure.jpg" },
   { keys: ["mirtilli"], src: "/foods/davide/mirtilli.jpg" },
   { keys: ["cannella"], src: "/foods/davide/cannella.jpg" },
-  { keys: ["burro d'arachidi", "frutta secca"], src: "/foods/davide/burro-arachidi-frutta-secca.jpg" }
+  { keys: ["burro d'arachidi", "burro arachidi", "frutta secca"], src: "/foods/davide/burro-arachidi-frutta-secca.jpg" },
+  { keys: ["cioccolato fondente"], src: "/foods/matteo/cioccolato-fondente.png" },
+  { keys: ["pane di segale"], src: "/foods/matteo/pane-segale.png" },
+  { keys: ["fiocchi d'avena"], src: "/foods/matteo/fiocchi-avena.png" }
 ];
 
 export function getFoodImage(label) {

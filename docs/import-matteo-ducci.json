@@ -1,0 +1,785 @@
+{
+  "schemaVersion": "1.0",
+  "source": {
+    "fileName": "Matteo Ducci 1 mese 1 massa.pdf",
+    "extractedAt": "2026-06-28",
+    "notes": "JSON standardizzato per import nella PWA Meals. Estratto dal PDF Matteo Ducci 1 mese 1 massa del 26/06/26."
+  },
+  "person": {
+    "displayName": "Matteo Ducci",
+    "firstName": "Matteo",
+    "lastName": "Ducci"
+  },
+  "plan": {
+    "name": "Mese 1 incremento massa muscolare",
+    "phases": [
+      {
+        "id": "weeks-1-2",
+        "label": "Settimane 1-2",
+        "caloriesPerDay": "2400 cal",
+        "days": {
+          "monday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "60g fiocchi d'avena",
+                  "20g cioccolato fondente",
+                  "#1 frutto"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "30g whey protein isolate"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "130g pasta (integrale)",
+                  "100g ricotta light",
+                  "15g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  "marmellata/miele",
+                  "20g burro d'arachidi"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "80g riso/farro/orzo",
+                  "200g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "tuesday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "60g fiocchi di mais",
+                  "20g frutta secca",
+                  "#1 frutto"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "barretta proteica"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "190g pane (integrale)",
+                  "#2 uova",
+                  "15g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  "20g burro d'arachidi"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "300g patate",
+                  "200g pesce magro",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "wednesday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "60g gallette",
+                  "20g crema di frutta secca",
+                  "#1 frutto/marmellata"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g gallette di mais/riso",
+                  "150g yogurt greco zero grassi"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "130g pasta (integrale)",
+                  "200g fiocchi di latte zero grassi",
+                  "15g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "20g frutta secca"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "120g pane (integrale)",
+                  "200g manzo/cavallo",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "thursday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "60g fette biscottate",
+                  "20g burro arachidi",
+                  "#1 frutto/marmellata"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "30g whey protein isolate"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "220g pane (integrale)",
+                  "#2 uova",
+                  "15g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  "marmellata/miele",
+                  "20g burro d'arachidi"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "300g patate",
+                  "200g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "friday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "60g fiocchi di mais",
+                  "20g frutta secca",
+                  "#1 frutto"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "30g whey protein isolate"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "130g pasta (integrale)",
+                  "100g mozzarella light",
+                  "15g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  "20g burro d'arachidi"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "200g legumi (cotti)",
+                  "200g pesce magro",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "saturday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "60g gallette",
+                  "20g crema di frutta secca",
+                  "#1 frutto/marmellata"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "barretta proteica"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "130g riso/farro/orzo",
+                  "100g tonno al naturale",
+                  "15g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "20g frutta secca"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "pasto libero"
+                ]
+              }
+            ]
+          },
+          "sunday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "120-150g albume (per pancake)",
+                  "60g farina d'avena",
+                  "20g cioccolato fondente",
+                  "#1 frutto/marmellata"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g gallette di mais/riso",
+                  "150g yogurt greco zero grassi"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "300g gnocchi di patate",
+                  "100g pesce grasso",
+                  "15g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  "marmellata/miele",
+                  "20g burro d'arachidi"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "200g legumi (cotti)",
+                  "200g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "weeks-3-4",
+        "label": "Settimane 3-4",
+        "caloriesPerDay": "2500 cal",
+        "days": {
+          "monday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "60g fiocchi d'avena",
+                  "20g cioccolato fondente",
+                  "#1 frutto"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "30g whey protein isolate"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "150g pasta (integrale)",
+                  "100g ricotta light",
+                  "20g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  "marmellata/miele",
+                  "20g burro d'arachidi"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "80g riso/farro/orzo",
+                  "200g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "tuesday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "60g fiocchi di mais",
+                  "20g frutta secca",
+                  "#1 frutto"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "barretta proteica"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "220g pane (integrale)",
+                  "#2 uova",
+                  "20g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  {
+                    "name": "avocado",
+                    "quantity": 0.5,
+                    "unit": "pz",
+                    "rawText": "#MEZZO AVOCADO",
+                    "category": "fats"
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "300g patate",
+                  "200g pesce magro",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "wednesday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "60g gallette",
+                  "20g crema di frutta secca",
+                  "#1 frutto/marmellata"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g gallette di mais/riso",
+                  "150g yogurt greco zero grassi"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "150g pasta (integrale)",
+                  "200g fiocchi di latte zero grassi",
+                  "20g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "20g frutta secca"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "120g pane (integrale)",
+                  "200g manzo/cavallo",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "thursday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "60g fette biscottate",
+                  "20g burro arachidi",
+                  "#1 frutto/marmellata"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "30g whey protein isolate"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "220g pane (integrale)",
+                  "#2 uova",
+                  "20g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  "marmellata/miele",
+                  "20g burro d'arachidi"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "300g patate",
+                  "200g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "friday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "150g yogurt greco zero grassi",
+                  "60g fiocchi di mais",
+                  "20g frutta secca",
+                  "#1 frutto"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "30g whey protein isolate"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "150g pasta (integrale)",
+                  "100g mozzarella light",
+                  "20g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  {
+                    "name": "avocado",
+                    "quantity": 0.5,
+                    "unit": "pz",
+                    "rawText": "#MEZZO AVOCADO",
+                    "category": "fats"
+                  }
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "200g legumi (cotti)",
+                  "200g pesce magro",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          },
+          "saturday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "200ml latte vegetale/scremato",
+                  "60g gallette",
+                  "20g crema di frutta secca",
+                  "#1 frutto/marmellata"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "barretta proteica"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "150g riso/farro/orzo",
+                  "100g tonno al naturale",
+                  "20g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "30g crackers di riso / integrali",
+                  "20g frutta secca"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "pasto libero"
+                ]
+              }
+            ]
+          },
+          "sunday": {
+            "notes": [
+              "#1 compressa multivitamin",
+              "#2 compresse omega 3"
+            ],
+            "meals": [
+              {
+                "type": "breakfast",
+                "title": "Pasto 1",
+                "items": [
+                  "120-150g albume (per pancake)",
+                  "60g farina d'avena",
+                  "20g cioccolato fondente",
+                  "#1 frutto/marmellata"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 2",
+                "items": [
+                  "30g gallette di mais/riso",
+                  "150g yogurt greco zero grassi"
+                ]
+              },
+              {
+                "type": "lunch",
+                "title": "Pasto 3",
+                "items": [
+                  "300g gnocchi di patate",
+                  "100g pesce grasso",
+                  "15g olio EVO"
+                ]
+              },
+              {
+                "type": "snack",
+                "title": "Pasto 4",
+                "items": [
+                  "50g pane di segale",
+                  "marmellata/miele",
+                  "20g burro d'arachidi"
+                ]
+              },
+              {
+                "type": "dinner",
+                "title": "Pasto 5",
+                "items": [
+                  "200g legumi (cotti)",
+                  "200g petto di pollo/tacchino",
+                  "verdura",
+                  "20g olio EVO"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "foods": [],
+  "combinations": [],
+  "substitutions": {}
+}

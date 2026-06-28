@@ -33,6 +33,8 @@ psql "$DATABASE_URL" -f db/schema.sql
 npm run dev
 ```
 
+Questo comando avvia sia Vite sia le route API locali (`/api/me`, `/api/diet`, `/api/blob-upload`).
+
 ## Variabili ambiente
 
 Vedi [docs/env.example](docs/env.example).
