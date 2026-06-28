@@ -91,6 +91,66 @@ function AuthScreen() {
   );
 }
 
+function PasswordRecoveryScreen({ onComplete }) {
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  async function submit(event) {
+    event.preventDefault();
+    setError("");
+    setMessage("");
+
+    if (password !== confirmPassword) {
+      setError("Le password non coincidono.");
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const client = requireSupabase();
+      const { error: updateError } = await client.auth.updateUser({ password });
+      if (updateError) throw updateError;
+
+      setMessage("Password aggiornata. Ora puoi accedere con la nuova password.");
+      clearPasswordRecoveryUrl();
+      await new Promise((resolve) => setTimeout(resolve, 900));
+      await client.auth.signOut();
+      onComplete();
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <main className="auth-page">
+      <section className="auth-panel">
+        <p className="eyebrow">Reset password</p>
+        <h1>Imposta nuova password</h1>
+        <form onSubmit={submit} className="auth-form">
+          <label>
+            Nuova password
+            <input type="password" value={password} onChange={(event) => setPassword(event.target.value)} required minLength={6} />
+          </label>
+          <label>
+            Conferma password
+            <input type="password" value={confirmPassword} onChange={(event) => setConfirmPassword(event.target.value)} required minLength={6} />
+          </label>
+          <button className="primary-button" type="submit" disabled={loading}>
+            {loading ? "Salvataggio..." : "Aggiorna password"}
+          </button>
+        </form>
+        {error && <p className="form-error">{error}</p>}
+        {message && <p className="form-message">{message}</p>}
+      </section>
+    </main>
+  );
+}
+
 function AppShell({ session }) {
   const [profile, setProfile] = useState(null);
   const [diet, setDiet] = useState(null);
@@ -591,6 +651,7 @@ function ImportDiet({ session, onImported }) {
 function Root() {
   const [session, setSession] = useState(null);
   const [ready, setReady] = useState(false);
+  const [passwordRecovery, setPasswordRecovery] = useState(false);
 
   useEffect(() => {
     if (!("serviceWorker" in navigator)) return;
@@ -610,13 +671,26 @@ function Root() {
       setReady(true);
       return;
     }
-    supabase.auth.getSession().then(({ data }) => {
-      setSession(data.session);
-      setReady(true);
-    });
-    const { data: listener } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+
+    const hasRecoveryToken = isPasswordRecoveryUrl();
+    if (hasRecoveryToken) setPasswordRecovery(true);
+
+    const { data: listener } = supabase.auth.onAuthStateChange((event, nextSession) => {
+      if (event === "PASSWORD_RECOVERY") {
+        setPasswordRecovery(true);
+      }
+      if (event === "SIGNED_OUT") {
+        setPasswordRecovery(false);
+      }
       setSession(nextSession);
     });
+
+    supabase.auth.getSession().then(({ data }) => {
+      setSession(data.session);
+      if (hasRecoveryToken && data.session) setPasswordRecovery(true);
+      setReady(true);
+    });
+
     return () => listener.subscription.unsubscribe();
   }, []);
 
@@ -624,7 +698,20 @@ function Root() {
   if (!supabase) {
     return <DemoShell />;
   }
+  if (passwordRecovery) {
+    return <PasswordRecoveryScreen onComplete={() => setPasswordRecovery(false)} />;
+  }
   return session ? <AppShell session={session} /> : <AuthScreen />;
+}
+
+function isPasswordRecoveryUrl() {
+  const query = new URLSearchParams(window.location.search);
+  const hash = new URLSearchParams(window.location.hash.replace(/^#/, ""));
+  return query.get("type") === "recovery" || hash.get("type") === "recovery";
+}
+
+function clearPasswordRecoveryUrl() {
+  window.history.replaceState({}, document.title, window.location.pathname);
 }
 
 function DemoShell() {

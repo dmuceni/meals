@@ -1,12 +1,16 @@
 const FOOD_IMAGE_RULES = [
-  { keys: ["frutto/marmellata", "#1 frutto", "marmellata"], src: "/foods/stefania/frutto-marmellata.jpg" },
+  { exact: ["marmellata", "marmellata/miele"], src: "/foods/matteo/marmellata.png" },
+  { exact: ["frutto", "#1 frutto"], src: "/foods/stefania/frutto-marmellata.jpg" },
+  { keys: ["frutto/marmellata"], src: "/foods/stefania/frutto-marmellata.jpg" },
   { keys: ["biscotti magri"], src: "/foods/stefania/biscotti-magri.jpg" },
   { keys: ["fette biscottate"], src: "/foods/stefania/fette-biscottate.jpg" },
   { keys: ["pasta integrale", "pasta (integrale)"], src: "/foods/stefania/pasta-integrale.jpg" },
+  { keys: ["pane di qualsiasi cereale"], src: "/foods/matteo/pane-qualsiasi-cereale.png" },
   { keys: ["pane integrale", "pane (integrale)"], src: "/foods/stefania/pane-integrale.jpg" },
   { keys: ["mozzarella"], src: "/foods/stefania/mozzarella-light.jpg" },
   { keys: ["ricotta", "fiocchi di latte"], src: "/foods/stefania/ricotta-fiocchi-latte.jpg" },
-  { keys: ["gnocchi", "patate"], src: "/foods/stefania/patate-gnocchi.jpg" },
+  { keys: ["gnocchi"], src: "/foods/matteo/gnocchi-patate.png" },
+  { keys: ["patate/patate dolci", "patate dolci", "patate"], src: "/foods/matteo/patate-patate-dolci.png" },
   { keys: ["legumi"], src: "/foods/stefania/legumi.jpg" },
   { keys: ["pesce magro", "pesce grasso", "pesce"], src: "/foods/stefania/pesce.jpg" },
   { keys: ["prosciutto cotto"], src: "/foods/stefania/prosciutto-cotto.jpg" },
@@ -17,7 +21,7 @@ const FOOD_IMAGE_RULES = [
   { keys: ["avocado"], src: "/foods/davide/avocado.jpg" },
   { keys: ["uova", "uovo"], src: "/foods/davide/uova.jpg" },
   { keys: ["albume"], src: "/foods/davide/albume.jpg" },
-  { keys: ["gallette"], src: "/foods/davide/gallette.jpg" },
+  { keys: ["gallette", "wasa"], src: "/foods/davide/gallette.jpg" },
   { keys: ["cereali", "cornflakes", "fiocchi di mais"], src: "/foods/davide/cereali.jpg" },
   { keys: ["farina d'avena", "avena/pane"], src: "/foods/davide/avena-pane.jpg" },
   { keys: ["pane tostato"], src: "/foods/davide/pane-tostato.jpg" },
@@ -45,6 +49,9 @@ const FOOD_IMAGE_RULES = [
 
 export function getFoodImage(label) {
   const normalized = String(label || "").toLowerCase();
-  const match = FOOD_IMAGE_RULES.find((rule) => rule.keys.some((key) => normalized.includes(key)));
+  const clean = normalized.replace(/^\s*(?:#?\d+(?:[,.]\d+)?\s*(?:g|ml)?|#\s*\d+)\s+/i, "").trim();
+  const match = FOOD_IMAGE_RULES.find((rule) =>
+    rule.exact?.includes(clean) || rule.keys?.some((key) => normalized.includes(key))
+  );
   return match?.src || null;
 }

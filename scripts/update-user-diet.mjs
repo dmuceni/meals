@@ -58,7 +58,7 @@ for (const profile of profiles) {
     profile.display_name;
 
   const current = await sql`
-    select id, name, diet_json->'source'->>'fileName' as source_file
+    select id, name, diet_json, diet_json->'source'->>'fileName' as source_file
     from diets
     where profile_id = ${profile.id} and is_active = true
     limit 1
@@ -66,7 +66,8 @@ for (const profile of profiles) {
 
   if (
     current[0]?.name === (diet.plan?.name || "Piano alimentare") &&
-    current[0]?.source_file === diet.source?.fileName
+    current[0]?.source_file === diet.source?.fileName &&
+    JSON.stringify(current[0]?.diet_json) === JSON.stringify(diet)
   ) {
     results.push({ email: profile.email, profileId: profile.id, skipped: true, activeDiet: current[0] });
     continue;

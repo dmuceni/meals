@@ -3,7 +3,7 @@
   "source": {
     "fileName": "Matteo Ducci 1 mese 1 massa.pdf",
     "extractedAt": "2026-06-28",
-    "notes": "JSON standardizzato per import nella PWA Meals. Estratto dal PDF Matteo Ducci 1 mese 1 massa del 26/06/26."
+    "notes": "JSON standardizzato per import nella PWA Meals. Estratto dal PDF Matteo Ducci 1 mese 1 massa del 26/06/26. Alternative create usando FA sostituzione carboidrati.pdf e TABELLA SOSTITUZIONI.pdf."
   },
   "person": {
     "displayName": "Matteo Ducci",
@@ -32,6 +32,44 @@
                   "60g fiocchi d'avena",
                   "20g cioccolato fondente",
                   "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "90g pane di qualsiasi cereale",
+                      "20g cioccolato fondente",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "225g patate/patate dolci",
+                      "20g cioccolato fondente",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g fiocchi d'avena",
+                      "20g cioccolato fondente",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "60g fiocchi d'avena",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto"
+                    ]
+                  }
                 ]
               },
               {
@@ -40,6 +78,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "30g whey protein isolate"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "200g albume"
+                    ]
+                  }
                 ]
               },
               {
@@ -49,6 +110,40 @@
                   "130g pasta (integrale)",
                   "100g ricotta light",
                   "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "195g pane di qualsiasi cereale",
+                      "100g ricotta light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "488g patate/patate dolci",
+                      "100g ricotta light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "130g pasta (integrale)",
+                      "100g manzo/cavallo",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "130g pasta (integrale)",
+                      "100g ricotta light",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -58,6 +153,32 @@
                   "50g pane di segale",
                   "marmellata/miele",
                   "20g burro d'arachidi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "50g pane di segale",
+                      "marmellata/miele",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -68,6 +189,44 @@
                   "200g petto di pollo/tacchino",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "300g patate/patate dolci",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "80g riso/farro/orzo",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "80g riso/farro/orzo",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -86,6 +245,35 @@
                   "60g fiocchi di mais",
                   "20g frutta secca",
                   "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "90g pane di qualsiasi cereale",
+                      "20g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "225g patate/patate dolci",
+                      "20g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g fiocchi di mais",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto"
+                    ]
+                  }
                 ]
               },
               {
@@ -93,6 +281,29 @@
                 "title": "Pasto 2",
                 "items": [
                   "barretta proteica"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "50g affettato di pollo/tacchino",
+                      "20g gallette"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "20g fiocchi di mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "30g whey protein isolate",
+                      "20g wasa"
+                    ]
+                  }
                 ]
               },
               {
@@ -102,6 +313,40 @@
                   "190g pane (integrale)",
                   "#2 uova",
                   "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "127g pasta/riso/farro/orzo",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "475g patate/patate dolci",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "190g pane (integrale)",
+                      "100g manzo/cavallo",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "190g pane (integrale)",
+                      "#2 uova",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -110,6 +355,29 @@
                 "items": [
                   "50g pane di segale",
                   "20g burro d'arachidi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "50g pane di segale",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -120,6 +388,35 @@
                   "200g pesce magro",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "300g patate",
+                      "200g pesce magro",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -138,6 +435,44 @@
                   "60g gallette",
                   "20g crema di frutta secca",
                   "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "90g pane di qualsiasi cereale",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "225g patate/patate dolci",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g gallette",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "60g gallette",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
                 ]
               },
               {
@@ -146,6 +481,22 @@
                 "items": [
                   "30g gallette di mais/riso",
                   "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "45g pane di segale",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  }
                 ]
               },
               {
@@ -155,6 +506,40 @@
                   "130g pasta (integrale)",
                   "200g fiocchi di latte zero grassi",
                   "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "195g pane di qualsiasi cereale",
+                      "200g fiocchi di latte zero grassi",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "488g patate/patate dolci",
+                      "200g fiocchi di latte zero grassi",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "130g pasta (integrale)",
+                      "100g pollo/tacchino",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "130g pasta (integrale)",
+                      "200g fiocchi di latte zero grassi",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -163,6 +548,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "20g frutta secca"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "20g frutta secca"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "20g frutta secca"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -173,6 +581,44 @@
                   "200g manzo/cavallo",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g manzo/cavallo",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "300g patate/patate dolci",
+                      "200g manzo/cavallo",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "120g pane (integrale)",
+                      "200g pesce grasso",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "120g pane (integrale)",
+                      "200g manzo/cavallo",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -191,6 +637,44 @@
                   "60g fette biscottate",
                   "20g burro arachidi",
                   "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "90g pane di qualsiasi cereale",
+                      "20g burro arachidi",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "225g patate/patate dolci",
+                      "20g burro arachidi",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g fette biscottate",
+                      "20g burro arachidi",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "60g fette biscottate",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
                 ]
               },
               {
@@ -199,6 +683,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "30g whey protein isolate"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "200g albume"
+                    ]
+                  }
                 ]
               },
               {
@@ -208,6 +715,40 @@
                   "220g pane (integrale)",
                   "#2 uova",
                   "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "147g pasta/riso/farro/orzo",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "550g patate/patate dolci",
+                      "#2 uova",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "220g pane (integrale)",
+                      "100g manzo/cavallo",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "220g pane (integrale)",
+                      "#2 uova",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -217,6 +758,32 @@
                   "50g pane di segale",
                   "marmellata/miele",
                   "20g burro d'arachidi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "50g pane di segale",
+                      "marmellata/miele",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -227,6 +794,44 @@
                   "200g petto di pollo/tacchino",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "300g patate",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "300g patate",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -245,6 +850,35 @@
                   "60g fiocchi di mais",
                   "20g frutta secca",
                   "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "90g pane di qualsiasi cereale",
+                      "20g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "225g patate/patate dolci",
+                      "20g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g fiocchi di mais",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto"
+                    ]
+                  }
                 ]
               },
               {
@@ -253,6 +887,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "30g whey protein isolate"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "200g albume"
+                    ]
+                  }
                 ]
               },
               {
@@ -262,6 +919,40 @@
                   "130g pasta (integrale)",
                   "100g mozzarella light",
                   "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "195g pane di qualsiasi cereale",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "488g patate/patate dolci",
+                      "100g mozzarella light",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "130g pasta (integrale)",
+                      "100g manzo/cavallo",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "130g pasta (integrale)",
+                      "100g mozzarella light",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -270,6 +961,29 @@
                 "items": [
                   "50g pane di segale",
                   "20g burro d'arachidi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "50g pane di segale",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -280,6 +994,35 @@
                   "200g pesce magro",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200g legumi (cotti)",
+                      "200g pesce magro",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -298,6 +1041,44 @@
                   "60g gallette",
                   "20g crema di frutta secca",
                   "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "90g pane di qualsiasi cereale",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "225g patate/patate dolci",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g gallette",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "60g gallette",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
                 ]
               },
               {
@@ -305,6 +1086,29 @@
                 "title": "Pasto 2",
                 "items": [
                   "barretta proteica"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "50g affettato di pollo/tacchino",
+                      "20g gallette"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "20g fiocchi di mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "30g whey protein isolate",
+                      "20g wasa"
+                    ]
+                  }
                 ]
               },
               {
@@ -314,6 +1118,40 @@
                   "130g riso/farro/orzo",
                   "100g tonno al naturale",
                   "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "195g pane di qualsiasi cereale",
+                      "100g tonno al naturale",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "488g patate/patate dolci",
+                      "100g tonno al naturale",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "130g riso/farro/orzo",
+                      "100g pesce magro",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "130g riso/farro/orzo",
+                      "100g tonno al naturale",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -322,6 +1160,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "20g frutta secca"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "20g frutta secca"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "20g frutta secca"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -329,7 +1190,8 @@
                 "title": "Pasto 5",
                 "items": [
                   "pasto libero"
-                ]
+                ],
+                "alternatives": []
               }
             ]
           },
@@ -347,6 +1209,44 @@
                   "60g farina d'avena",
                   "20g cioccolato fondente",
                   "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120-150g albume (per pancake)",
+                      "90g pane di qualsiasi cereale",
+                      "20g cioccolato fondente",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120-150g albume (per pancake)",
+                      "225g patate/patate dolci",
+                      "20g cioccolato fondente",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g farina d'avena",
+                      "20g cioccolato fondente",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "120-150g albume (per pancake)",
+                      "60g farina d'avena",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
                 ]
               },
               {
@@ -355,6 +1255,22 @@
                 "items": [
                   "30g gallette di mais/riso",
                   "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "45g pane di segale",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  }
                 ]
               },
               {
@@ -364,6 +1280,32 @@
                   "300g gnocchi di patate",
                   "100g pesce grasso",
                   "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "100g pesce grasso",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "100g pesce grasso",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "300g gnocchi di patate",
+                      "100g pesce grasso",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -373,6 +1315,32 @@
                   "50g pane di segale",
                   "marmellata/miele",
                   "20g burro d'arachidi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "50g pane di segale",
+                      "marmellata/miele",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -383,6 +1351,44 @@
                   "200g petto di pollo/tacchino",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "200g legumi (cotti)",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200g legumi (cotti)",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -408,6 +1414,44 @@
                   "60g fiocchi d'avena",
                   "20g cioccolato fondente",
                   "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "90g pane di qualsiasi cereale",
+                      "20g cioccolato fondente",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "225g patate/patate dolci",
+                      "20g cioccolato fondente",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g fiocchi d'avena",
+                      "20g cioccolato fondente",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "60g fiocchi d'avena",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto"
+                    ]
+                  }
                 ]
               },
               {
@@ -416,6 +1460,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "30g whey protein isolate"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "200g albume"
+                    ]
+                  }
                 ]
               },
               {
@@ -425,6 +1492,40 @@
                   "150g pasta (integrale)",
                   "100g ricotta light",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "225g pane di qualsiasi cereale",
+                      "100g ricotta light",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "563g patate/patate dolci",
+                      "100g ricotta light",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g pasta (integrale)",
+                      "100g manzo/cavallo",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "150g pasta (integrale)",
+                      "100g ricotta light",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -434,6 +1535,32 @@
                   "50g pane di segale",
                   "marmellata/miele",
                   "20g burro d'arachidi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "50g pane di segale",
+                      "marmellata/miele",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -444,6 +1571,44 @@
                   "200g petto di pollo/tacchino",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "300g patate/patate dolci",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "80g riso/farro/orzo",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "80g riso/farro/orzo",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -462,6 +1627,35 @@
                   "60g fiocchi di mais",
                   "20g frutta secca",
                   "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "90g pane di qualsiasi cereale",
+                      "20g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "225g patate/patate dolci",
+                      "20g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g fiocchi di mais",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto"
+                    ]
+                  }
                 ]
               },
               {
@@ -469,6 +1663,29 @@
                 "title": "Pasto 2",
                 "items": [
                   "barretta proteica"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "50g affettato di pollo/tacchino",
+                      "20g gallette"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "20g fiocchi di mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "30g whey protein isolate",
+                      "20g wasa"
+                    ]
+                  }
                 ]
               },
               {
@@ -478,6 +1695,40 @@
                   "220g pane (integrale)",
                   "#2 uova",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "147g pasta/riso/farro/orzo",
+                      "#2 uova",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "550g patate/patate dolci",
+                      "#2 uova",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "220g pane (integrale)",
+                      "100g manzo/cavallo",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "220g pane (integrale)",
+                      "#2 uova",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -492,6 +1743,34 @@
                     "rawText": "#MEZZO AVOCADO",
                     "category": "fats"
                   }
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      {
+                        "name": "avocado",
+                        "quantity": 0.5,
+                        "unit": "pz",
+                        "rawText": "#MEZZO AVOCADO",
+                        "category": "fats"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      {
+                        "name": "avocado",
+                        "quantity": 0.5,
+                        "unit": "pz",
+                        "rawText": "#MEZZO AVOCADO",
+                        "category": "fats"
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -502,6 +1781,35 @@
                   "200g pesce magro",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "300g patate",
+                      "200g pesce magro",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -520,6 +1828,44 @@
                   "60g gallette",
                   "20g crema di frutta secca",
                   "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "90g pane di qualsiasi cereale",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "225g patate/patate dolci",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g gallette",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "60g gallette",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
                 ]
               },
               {
@@ -528,6 +1874,22 @@
                 "items": [
                   "30g gallette di mais/riso",
                   "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "45g pane di segale",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  }
                 ]
               },
               {
@@ -537,6 +1899,40 @@
                   "150g pasta (integrale)",
                   "200g fiocchi di latte zero grassi",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "225g pane di qualsiasi cereale",
+                      "200g fiocchi di latte zero grassi",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "563g patate/patate dolci",
+                      "200g fiocchi di latte zero grassi",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g pasta (integrale)",
+                      "100g pollo/tacchino",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "150g pasta (integrale)",
+                      "200g fiocchi di latte zero grassi",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -545,6 +1941,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "20g frutta secca"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "20g frutta secca"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "20g frutta secca"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -555,6 +1974,44 @@
                   "200g manzo/cavallo",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g manzo/cavallo",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "300g patate/patate dolci",
+                      "200g manzo/cavallo",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "120g pane (integrale)",
+                      "200g pesce grasso",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "120g pane (integrale)",
+                      "200g manzo/cavallo",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -573,6 +2030,44 @@
                   "60g fette biscottate",
                   "20g burro arachidi",
                   "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "90g pane di qualsiasi cereale",
+                      "20g burro arachidi",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "225g patate/patate dolci",
+                      "20g burro arachidi",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g fette biscottate",
+                      "20g burro arachidi",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "60g fette biscottate",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
                 ]
               },
               {
@@ -581,6 +2076,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "30g whey protein isolate"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "200g albume"
+                    ]
+                  }
                 ]
               },
               {
@@ -590,6 +2108,40 @@
                   "220g pane (integrale)",
                   "#2 uova",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "147g pasta/riso/farro/orzo",
+                      "#2 uova",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "550g patate/patate dolci",
+                      "#2 uova",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "220g pane (integrale)",
+                      "100g manzo/cavallo",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "220g pane (integrale)",
+                      "#2 uova",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -599,6 +2151,32 @@
                   "50g pane di segale",
                   "marmellata/miele",
                   "20g burro d'arachidi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "50g pane di segale",
+                      "marmellata/miele",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -609,6 +2187,44 @@
                   "200g petto di pollo/tacchino",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "300g patate",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "300g patate",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -627,6 +2243,35 @@
                   "60g fiocchi di mais",
                   "20g frutta secca",
                   "#1 frutto"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "90g pane di qualsiasi cereale",
+                      "20g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "225g patate/patate dolci",
+                      "20g frutta secca",
+                      "#1 frutto"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g fiocchi di mais",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto"
+                    ]
+                  }
                 ]
               },
               {
@@ -635,6 +2280,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "30g whey protein isolate"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "30g whey protein isolate"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "200g albume"
+                    ]
+                  }
                 ]
               },
               {
@@ -644,6 +2312,40 @@
                   "150g pasta (integrale)",
                   "100g mozzarella light",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "225g pane di qualsiasi cereale",
+                      "100g mozzarella light",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "563g patate/patate dolci",
+                      "100g mozzarella light",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g pasta (integrale)",
+                      "100g manzo/cavallo",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "150g pasta (integrale)",
+                      "100g mozzarella light",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -658,6 +2360,34 @@
                     "rawText": "#MEZZO AVOCADO",
                     "category": "fats"
                   }
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      {
+                        "name": "avocado",
+                        "quantity": 0.5,
+                        "unit": "pz",
+                        "rawText": "#MEZZO AVOCADO",
+                        "category": "fats"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      {
+                        "name": "avocado",
+                        "quantity": 0.5,
+                        "unit": "pz",
+                        "rawText": "#MEZZO AVOCADO",
+                        "category": "fats"
+                      }
+                    ]
+                  }
                 ]
               },
               {
@@ -668,6 +2398,35 @@
                   "200g pesce magro",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200g legumi (cotti)",
+                      "200g pesce magro",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -686,6 +2445,44 @@
                   "60g gallette",
                   "20g crema di frutta secca",
                   "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "90g pane di qualsiasi cereale",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "225g patate/patate dolci",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g gallette",
+                      "20g crema di frutta secca",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200ml latte vegetale/scremato",
+                      "60g gallette",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
                 ]
               },
               {
@@ -693,6 +2490,29 @@
                 "title": "Pasto 2",
                 "items": [
                   "barretta proteica"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "50g affettato di pollo/tacchino",
+                      "20g gallette"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "20g fiocchi di mais"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa barretta",
+                    "items": [
+                      "30g whey protein isolate",
+                      "20g wasa"
+                    ]
+                  }
                 ]
               },
               {
@@ -702,6 +2522,40 @@
                   "150g riso/farro/orzo",
                   "100g tonno al naturale",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "225g pane di qualsiasi cereale",
+                      "100g tonno al naturale",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "563g patate/patate dolci",
+                      "100g tonno al naturale",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g riso/farro/orzo",
+                      "100g pesce magro",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "150g riso/farro/orzo",
+                      "100g tonno al naturale",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -710,6 +2564,29 @@
                 "items": [
                   "30g crackers di riso / integrali",
                   "20g frutta secca"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "20g frutta secca"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g avena/riso",
+                      "20g frutta secca"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "30g crackers di riso / integrali",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -717,7 +2594,8 @@
                 "title": "Pasto 5",
                 "items": [
                   "pasto libero"
-                ]
+                ],
+                "alternatives": []
               }
             ]
           },
@@ -735,6 +2613,44 @@
                   "60g farina d'avena",
                   "20g cioccolato fondente",
                   "#1 frutto/marmellata"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120-150g albume (per pancake)",
+                      "90g pane di qualsiasi cereale",
+                      "20g cioccolato fondente",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120-150g albume (per pancake)",
+                      "225g patate/patate dolci",
+                      "20g cioccolato fondente",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "150g yogurt greco zero grassi",
+                      "60g farina d'avena",
+                      "20g cioccolato fondente",
+                      "#1 frutto/marmellata"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "120-150g albume (per pancake)",
+                      "60g farina d'avena",
+                      "#MEZZO AVOCADO",
+                      "#1 frutto/marmellata"
+                    ]
+                  }
                 ]
               },
               {
@@ -743,6 +2659,22 @@
                 "items": [
                   "30g gallette di mais/riso",
                   "150g yogurt greco zero grassi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "45g pane di segale",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "30g gallette/wasa",
+                      "150g yogurt greco zero grassi"
+                    ]
+                  }
                 ]
               },
               {
@@ -752,6 +2684,32 @@
                   "300g gnocchi di patate",
                   "100g pesce grasso",
                   "15g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "100g pesce grasso",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "100g pesce grasso",
+                      "15g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "300g gnocchi di patate",
+                      "100g pesce grasso",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -761,6 +2719,32 @@
                   "50g pane di segale",
                   "marmellata/miele",
                   "20g burro d'arachidi"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g gallette/wasa",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "33g avena/riso",
+                      "marmellata/miele",
+                      "20g burro d'arachidi"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "50g pane di segale",
+                      "marmellata/miele",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               },
               {
@@ -771,6 +2755,44 @@
                   "200g petto di pollo/tacchino",
                   "verdura",
                   "20g olio EVO"
+                ],
+                "alternatives": [
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "80g pasta/riso/farro/orzo",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa carboidrati",
+                    "items": [
+                      "120g pane di qualsiasi cereale",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa proteine",
+                    "items": [
+                      "200g legumi (cotti)",
+                      "200g pesce magro",
+                      "verdura",
+                      "20g olio EVO"
+                    ]
+                  },
+                  {
+                    "label": "Alternativa grassi",
+                    "items": [
+                      "200g legumi (cotti)",
+                      "200g petto di pollo/tacchino",
+                      "verdura",
+                      "#MEZZO AVOCADO"
+                    ]
+                  }
                 ]
               }
             ]
@@ -781,5 +2803,14 @@
   },
   "foods": [],
   "combinations": [],
-  "substitutions": {}
+  "substitutions": {
+    "sources": [
+      "FA sostituzione carboidrati.pdf",
+      "TABELLA SOSTITUZIONI.pdf"
+    ],
+    "notes": [
+      "Le alternative dei carboidrati seguono le equivalenze della tabella FitActive: 10g pasta/riso/avena = 15g pane/pasta fresca/piadina = 22g gnocchi = 37,5g patate = 25g legumi/mais.",
+      "Le alternative proteine, latticini e grassi seguono la tabella sostituzioni generale, mantenendo frequenze e limiti come indicazione del piano."
+    ]
+  }
 }
