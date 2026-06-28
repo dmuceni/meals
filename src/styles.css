@@ -307,8 +307,8 @@ main {
 }
 .ingredient-visual {
   grid-area: 1 / 1;
-  width: min(580px, 100%);
-  aspect-ratio: 3;
+  width: min(300px, 100%);
+  aspect-ratio: 3.2;
   justify-self: start;
   margin-left: clamp(8px, 4vw, 34px);
   position: relative;
@@ -317,8 +317,8 @@ main {
 }
 .ingredient-photo {
   grid-area: 1 / 1;
-  width: min(580px, 100%);
-  aspect-ratio: 3;
+  width: min(300px, 100%);
+  aspect-ratio: 3.2;
   justify-self: start;
   margin-left: clamp(8px, 4vw, 34px);
   display: grid;
@@ -718,8 +718,8 @@ main {
   }
   .ingredient-visual,
   .ingredient-photo {
-    width: min(280px, 100%);
-    aspect-ratio: 2.8;
+    width: min(150px, 100%);
+    aspect-ratio: 3;
     margin-left: 8px;
   }
   .ingredient-photo img {
